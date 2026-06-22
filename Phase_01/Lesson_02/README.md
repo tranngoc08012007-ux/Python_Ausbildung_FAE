@@ -7,9 +7,11 @@ How to create an isolated development environment using venv and manage project 
 Key Concepts
 
 Virtual Environment (venv)
+
 A self-contained directory that holds a specific Python installation and packages, isolated from the global Python on the machine. Each project gets its own environment to avoid version conflicts between projects.
 
 pip & PyPI
+
 pip is Python's package installer. It downloads libraries from PyPI (Python Package Index) and installs them into the active environment.
 
 requirements.txt vs requirements-dev.txt
