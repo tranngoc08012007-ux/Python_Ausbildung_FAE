@@ -1,46 +1,44 @@
-# Lesson_01: Print, Kommentare und Variablen
+# Lesson_01: Print, Comments and Variables
 
-## Lernziele
-- Die Verwendung von `print()` lernen
-- Kommentare in Python verstehen
-- Variablen deklarieren und verwenden
-- Einfache Berechnungen mit Variablen durchführen
-- Variablenwerte ändern und überschreiben
+## Learning Objectives
+- Learn how to use the `print()` function
+- Understand comments in Python
+- Create and use variables
+- Perform simple calculations with variables
+- Change and overwrite variable values
 
-## Wichtige Konzepte
+## Key Concepts
 
-### 1. `print()` Funktion
-- Text und Werte in der Konsole ausgeben
-- Variablenwerte direkt in print() verwenden
-- Mehrere print()-Aufrufe für verschiedene Ausgaben
+### 1. `print()` Function
+- Display text and values in the console
+- Use variable values directly inside `print()`
+- Use multiple `print()` calls for different outputs
 
-### 2. Kommentare
-- **Einzeilige Kommentare**: `# Das ist ein Kommentar`
-- Erklären, was jede Zeile Code tut
-- Helfen anderen und dir selbst, Code zu verstehen
+### 2. Comments
+- **Single-line comments**: `# This is a comment`
+- Explain what each line of code does
+- Help yourself and others understand the code better
 
-### 3. Variablen
-- Variablen speichern Informationen im Speicher
-- Datentypen: `str` (Text), `int` (Ganzzahl)
-- Aussagekräftige Variablennamen verwenden
-- Variablenwerte können berechnet werden (z.B. `alter = aktuellesJahr - geburtsJahr`)
-- Variablen können überschrieben werden (z.B. `alter = 20`)
-
-## Beispiele aus main.py
-
-```python
-# Variablen erstellen
+### 3. Variables
+- Variables store information in memory
+- Basic data types:
+  - `str` (text/string)
+  - `int` (integer/whole number)
+- Use meaningful variable names
+- Variable values can be calculated, for example:
+  ```python
+  age = currentYear - birthYear
+  # Creating variables
 name = "Trần Nguyễn Ngọc"
-geburtsJahr = 2007
-aktuellesJahr = 2026
+birthYear = 2007
+currentYear = 2026
 
-# Berechnung mit Variablen
-alter = aktuellesJahr - geburtsJahr
+# Calculating with variables
+age = currentYear - birthYear
 
-# Variablen ausgeben
+# Changing a variable value
+age = 20
+
+# Printing variable values
 print(name)
-print(alter)
-
-# Variablenwert ändern
-alter = 20
-print(alter)  # Jetzt 20 ausgeben
+print(age)
